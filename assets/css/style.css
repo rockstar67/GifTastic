@@ -1,5 +1,6 @@
 body {
     background: url("../images/star-wars-rise-of-skywalker-teaser-2.png");
+    height: calc (100% - 80px);
 
 }
 
