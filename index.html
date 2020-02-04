@@ -7,49 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <title>GifTastic</title>
 </head>
 
 <body>
-    <div class="jumbotron" id="control-container">
-    <div id="buttonArea"></div>
-      <!-- Page Title -->
-      <div class="row">
-        <div class="col-md-12">
-            <h1 id="page-title" class="text-center">GifTastic</h1>
-        </div>  
 
-    <form id="search-form">
-        <label for="search-input">Input in your search!</label>
-        <input type="text" id="search-input"><br>
-        <input type="submit" value="Submit">
-    </form>
-       
-           
-            
-    <div id="searches"></div>
 
-            
+    <div class="container" style="background: transparent;">
+        <h1 class="text-center">Starwars Hall of Fame</h1>
+        <br>
+        <br>
+        <br>
+        <div id="starwars-buttons"> </div>
+        <br>
+        <br>
+        <br>
+        <div class="container" id="btn" style="background: transparent;">
+            <form id="starwars-form">
+                <label id="add" for="starwars-input">Enter your favorite StarWars Character</label>
+                <input type="text" class="form-control" id="starwars-input">
+                <br>
+                <br>
+            </form>
+            <button onclick="submitButtonClicked()" type="button" id="add-starwars"
+                class="btn btn-success">Submit</button>
+            <br>
+            <br>
+            <div id="starwars"> </div>
+        </div>
 
     </div>
 
+
+
+
+
+
     <!-- Optional JavaScript -->
-    <script src="javascript.js" type="text/javascript"></script>
-    <!-- jQuery firsjt, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/javascript.js"></script>
+
+
 </body>
 
 </html>

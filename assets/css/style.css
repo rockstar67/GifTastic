@@ -1,0 +1,42 @@
+body {
+    background: url("../images/star-wars-rise-of-skywalker-teaser-2.png");
+
+}
+
+h1 {
+    font-family: Lobster;
+}
+
+.ratings {
+    color:  blue;
+    font-family: avenir;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background:  whitesmoke;
+    color: blue;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: white;
+}
