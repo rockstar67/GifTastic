@@ -1,8 +1,8 @@
-var starwarsArray = ["Princess Leia", "Greedo", "Chewbacca", "Hans Solo", "Darth Vader", "Luke Skywalker", "C-3PO", "R2D2", "Stormtrooper", "Yoda", "K-2SO", "Admiral Ackbar"];
+var topicsArray = ["Princess Leia", "Greedo", "Chewbacca", "Hans Solo", "Darth Vader", "Luke Skywalker", "C-3PO", "R2D2", "Stormtrooper", "Yoda", "K-2SO", "Admiral Ackbar"];
 
 $(document).ready(function() {
-    for (var i = 0; i < starwarsArray.length; i++) {
-        $("#starwars-buttons").append("<button type='button' onclick='searchGif(\"" + starwarsArray[i] + "\")' class='btn btn-primary' value=' " + starwarsArray[i] + "'> " + starwarsArray[i] + " </button>");
+    for (var i = 0; i < topicsArray.length; i++) {
+        $("#starwars-buttons").append("<button type='button' onclick='searchGif(\"" + topicsArray[i] + "\")' class='btn btn-primary' value=' " + topicsArray[i] + "'> " + topicsArray[i] + " </button>");
     }
 });
 
