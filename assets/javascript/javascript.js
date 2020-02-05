@@ -1,4 +1,4 @@
-var starwarsArray = ["Princess Leia", "Greedo", "Chewbacca", "Hans Solo", "Darth Vader"];
+var starwarsArray = ["Princess Leia", "Greedo", "Chewbacca", "Hans Solo", "Darth Vader", "Luke Skywalker", "C-3PO", "R2D2", "Stormtrooper", "Yoda", "K-2SO", "Admiral Ackbar"];
 
 $(document).ready(function() {
     for (var i = 0; i < starwarsArray.length; i++) {
