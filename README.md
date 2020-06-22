@@ -1,7 +1,8 @@
-# GifTastic
+# Project Title
 
+GifTastic
 
-app hits giphy api and loads some gifs to see
+## Getting Started
 
 How to use:
 
@@ -10,8 +11,27 @@ click on the images to play the gif
 click again to top playing the image
 add your own starwars character by typing it in the text box then click add
 
-Additional Notes
+### Installing
 
-This app was pretty straightforward. 
+git clone the repo.
+Open index.html in your favorite browser.
+    
+## Deployment
 
 link for repo project: https://rockstar67.github.io/GifTastic/
+
+## Built With
+
+* Github
+* Jquery
+* Html
+* CSS
+* Javascript
+
+## Authors
+
+* **Randy Amos** - *Initial work* - 
+
+
+
+
